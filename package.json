@@ -1,0 +1,21 @@
+{
+  "name": "612-dark-vscode",
+  "displayName": "612-dark-vscode",
+  "description": "A dark color theme for VS Code.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "612-dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/612-dark-color-theme.json"
+      }
+    ]
+  }
+}
